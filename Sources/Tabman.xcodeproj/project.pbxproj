@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -36,8 +36,6 @@
 		464E90972188724D0096308E /* TMBarViewUpdateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464E90962188724D0096308E /* TMBarViewUpdateHandler.swift */; };
 		464E90992188853F0096308E /* TMTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464E90982188853F0096308E /* TMTransition.swift */; };
 		467E1B7E21C2B441000BB77D /* TMHidingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467E1B7D21C2B441000BB77D /* TMHidingBar.swift */; };
-		468EDFBA2164C51200C27982 /* AutoInsetter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462F85DA201B33AE00C3D4D4 /* AutoInsetter.framework */; };
-		468EDFBB2164C51200C27982 /* Pageboy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D65F101C1EAEA2730090980C /* Pageboy.framework */; };
 		46A9D28A213C145D001D9A70 /* TMBarIndicatorContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A9D289213C145D001D9A70 /* TMBarIndicatorContainer.swift */; };
 		46A9D28C213C3005001D9A70 /* TMBarViewLayoutGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A9D28B213C3005001D9A70 /* TMBarViewLayoutGrid.swift */; };
 		46B244EA21C8399900B4D26A /* TMHidingBar+Triggers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B244E921C8399900B4D26A /* TMHidingBar+Triggers.swift */; };
@@ -66,6 +64,8 @@
 		46E96339211B7F03004C7468 /* TMBarLayoutParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E96338211B7F03004C7468 /* TMBarLayoutParent.swift */; };
 		46EA239C2195DB660004E0AC /* AnimateableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EA239B2195DB660004E0AC /* AnimateableLabel.swift */; };
 		46F608872193231500E2BD14 /* TMDotBarIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F608862193231500E2BD14 /* TMDotBarIndicator.swift */; };
+		CD5E903C25CD44CA003F3919 /* Pageboy.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5E903B25CD44CA003F3919 /* Pageboy.xcframework */; };
+		CD5E904325CD44D9003F3919 /* AutoInsetter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5E904225CD44D9003F3919 /* AutoInsetter.xcframework */; };
 		D62AC0BC1E5733810020B8AE /* Tabman.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62AC0B21E5733810020B8AE /* Tabman.framework */; };
 		D62AC0C31E5733810020B8AE /* Tabman.h in Headers */ = {isa = PBXBuildFile; fileRef = D62AC0B51E5733810020B8AE /* Tabman.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D62AC0F51E5733FE0020B8AE /* TabmanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62AC0F41E5733FE0020B8AE /* TabmanViewController.swift */; };
@@ -140,6 +140,8 @@
 		46E96338211B7F03004C7468 /* TMBarLayoutParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMBarLayoutParent.swift; sourceTree = "<group>"; };
 		46EA239B2195DB660004E0AC /* AnimateableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateableLabel.swift; sourceTree = "<group>"; };
 		46F608862193231500E2BD14 /* TMDotBarIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDotBarIndicator.swift; sourceTree = "<group>"; };
+		CD5E903B25CD44CA003F3919 /* Pageboy.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Pageboy.xcframework; path = ../Carthage/Build/Pageboy.xcframework; sourceTree = "<group>"; };
+		CD5E904225CD44D9003F3919 /* AutoInsetter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AutoInsetter.xcframework; path = ../Carthage/Build/AutoInsetter.xcframework; sourceTree = "<group>"; };
 		D62AC0B21E5733810020B8AE /* Tabman.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tabman.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62AC0B51E5733810020B8AE /* Tabman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tabman.h; sourceTree = "<group>"; };
 		D62AC0B61E5733810020B8AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -154,8 +156,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				468EDFBA2164C51200C27982 /* AutoInsetter.framework in Frameworks */,
-				468EDFBB2164C51200C27982 /* Pageboy.framework in Frameworks */,
+				CD5E904325CD44D9003F3919 /* AutoInsetter.xcframework in Frameworks */,
+				CD5E903C25CD44CA003F3919 /* Pageboy.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +421,8 @@
 		D62AC1531E5AF5500020B8AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD5E904225CD44D9003F3919 /* AutoInsetter.xcframework */,
+				CD5E903B25CD44CA003F3919 /* Pageboy.xcframework */,
 				462F85DA201B33AE00C3D4D4 /* AutoInsetter.framework */,
 				D65F101C1EAEA2730090980C /* Pageboy.framework */,
 			);
@@ -747,7 +751,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -769,7 +774,11 @@
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				INFOPLIST_FILE = Tabman/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.uias.Tabman;
 				PRODUCT_NAME = Tabman;
 				SKIP_INSTALL = YES;
@@ -790,7 +799,11 @@
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				INFOPLIST_FILE = Tabman/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.uias.Tabman;
 				PRODUCT_NAME = Tabman;
 				SKIP_INSTALL = YES;
@@ -805,7 +818,12 @@
 				DEVELOPMENT_TEAM = "";
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				INFOPLIST_FILE = TabmanTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks \"$(SRCROOT)/../Carthage/Build/iOS\"";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"\"$(SRCROOT)/../Carthage/Build/iOS\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.msapsford.TabmanTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -820,7 +838,12 @@
 				DEVELOPMENT_TEAM = "";
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				INFOPLIST_FILE = TabmanTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks \"$(SRCROOT)/../Carthage/Build/iOS\"";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+					"\"$(SRCROOT)/../Carthage/Build/iOS\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.msapsford.TabmanTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
